@@ -62,5 +62,5 @@ Improving the dataset used for training is essential for better results:
 
 ## Results of Improvements
 
-Switching to a smaller LLM reduced training time from 24 hours down to approx 11.
+Switching to a smaller LLM reduced training time from 24 hours down to approx 11. Also, training for more iterations seemed to decrease the loss. We trained this for one full epoch.
 
