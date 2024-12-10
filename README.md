@@ -57,5 +57,5 @@ Improving the dataset used for training is essential for better results:
 
 ## Results of Improvements
 
-Switching to a smaller LLM reduced training time from 25 hours down to approx 12. Also, training for more iterations seemed to decrease the loss. During testing we only trained for 60 steps, which resulted in the loss still being pretty high. We trained this for one full epoch, and loss seemed to decrease with increasing number of training steps.
+Switching to a smaller LLM reduced training time from 25 hours down to approx 12. Also, training for more iterations seemed to decrease the loss. During testing we only trained for 60 steps, which resulted in the loss still being pretty high. We trained this for one full epoch, and loss seemed to decrease with increasing number of training steps. We also tried increasing the per_device_train_batch_size from 2 to 4 which seemed to decrease the training time a bit, from around 12 hours to around 9
 
